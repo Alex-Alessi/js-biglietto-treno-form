@@ -31,7 +31,14 @@
               <label for="input-name">Scrivi il tuo nome</label>
             </form>
           </div>
-          <div class="col-4">Km da percorrere</div>
+
+          <div class="col-4">
+            <label for="floatingSelect">Km da percorrere</label>
+            <form class="form-floating">
+              <input type="text" class="form-control" id="input-distanza" />
+              <label for="input-distanza">Scrivi il numero di km</label>
+            </form>
+          </div>
 
           <div class="col-4">
             <label for="input-age">Works with selects</label>
@@ -40,6 +47,15 @@
               <option value="2">Maggiorenne</option>
               <option value="3">Over 65</option>
             </select>
+          </div>
+
+          <div class="row align-items-center justify-content-center mt-5 gap-3">
+            <button type="button" class="btn btn-secondary col-1 btn-sm">
+              Genera
+            </button>
+            <button type="button" class="btn btn-secondary col-1 btn-sm">
+              Annulla
+            </button>
           </div>
         </div>
       </div>
