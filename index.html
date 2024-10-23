@@ -43,14 +43,18 @@
           <div class="col-4">
             <label for="input-age">Works with selects</label>
             <select class="form-select" id="input-age">
-              <option value="1">Minorenne</option>
-              <option value="2">Maggiorenne</option>
-              <option value="3">Over 65</option>
+              <option>Minorenne</option>
+              <option>Maggiorenne</option>
+              <option>Over 65</option>
             </select>
           </div>
 
           <div class="row align-items-center justify-content-center mt-5 gap-3">
-            <button type="button" class="btn btn-secondary col-1 btn-sm">
+            <button
+              type="button"
+              class="btn btn-secondary col-1 btn-sm"
+              id="generate-button"
+            >
               Genera
             </button>
             <button type="button" class="btn btn-secondary col-1 btn-sm">
@@ -64,18 +68,32 @@
         <h2 class="text-white text-center pt-3">IL TUO BIGLIETTO</h2>
       </header-second-card>
       <div class="container py-3 bg-white">
-        <div class="row">
+        <div class="row" id="output-card">
           <h5 class="text-black col-3">DETTAGLIO PASSEGGERI</h5>
         </div>
         <div class="row">
           <div class="container col-3 bg-secondary text-black py-2">
-            NOME PASSEGGERO
+            <h6>NOME PASSEGGERO</h6>
+            <h6>Alex</h6>
           </div>
+
           <div class="row container col-9 border border-black py-2">
-            <h6 class="col-3">Offerta</h6>
-            <h6 class="col-3">Carrozza</h6>
-            <h6 class="col-3">Codice CP</h6>
-            <h6 class="col-3">Costo biglietto</h6>
+            <div class="col-3">
+              <h6>Offerta</h6>
+              <p class="mt-5">biglietto</p>
+            </div>
+            <div class="col-3">
+              <h6>Carrozza</h6>
+              <p class="mt-5">biglietto</p>
+            </div>
+            <div class="col-3">
+              <h6>Codice CP</h6>
+              <p class="mt-5">biglietto</p>
+            </div>
+            <div class="col-3">
+              <h6>Costo biglietto</h6>
+              <p class="mt-5">biglietto</p>
+            </div>
           </div>
         </div>
       </div>
